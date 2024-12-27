@@ -4,12 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            height: 100vh;
+            margin: 0;
+        }
+        .grid-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            color: white;
+        }
+        .item1 { background-color: red; }
+        .item2 { background-color: blue; }
+        .item3 { background-color: green; }
+        .item4 { background-color: yellow; }
+        .item5 { background-color: purple; }
+        .item6 { background-color: orange; }
+        .item7 { background-color: pink; }
+        .item8 { background-color: brown; }
+        .item9 { background-color: gray; }
+    </style>
 </head>
 <body>
-    <h1>coding world</h1>
-    <div class="header">
-        <h2>header</h2>
-        <img src="" alt="">
-    </div>
-</body>
-</html>
+    <div class="grid-item item1">1</div>
+    <div class="grid-item item2">2</div>
+    <div class="grid-item item3">3</div>
+    <div class="grid-item item4">4</div>
+    <div class="grid-item item5">5</div>
+    <div class="grid-item item6">6</div>
+    <div class="grid-item item7">7</div>
+    <div class="grid-item item8">8</div>
